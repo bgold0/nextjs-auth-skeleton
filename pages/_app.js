@@ -5,7 +5,7 @@ import fetch from 'isomorphic-unfetch'
 import redirectTo from '../components/redirectTo.js'
 import cookies from 'next-cookies'
 
-export default class extends React.Component {
+export default class extends App {
 
   static async getInitialProps ({ Component, router, ctx }) {
     let pageProps = {};
